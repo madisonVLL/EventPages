@@ -1,0 +1,12 @@
+body {
+    background-color: lavender;
+    color: #4c0094;
+    font-family: "EB Garamond", serif;
+}
+
+button {
+    border-radius: 50%;
+    color: lavender;
+    background-color:  #4c0094;
+    border-color: #4c0094;
+}

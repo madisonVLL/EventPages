@@ -4,6 +4,10 @@ body {
     font-family: "EB Garamond", serif;
     margin: 1em;
     padding: 1em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
 }
 
 button {
@@ -12,6 +16,7 @@ button {
     background-color:  #2b015f;
     border: 0.1em solid #2b015f;
     font-family: "EB Garamond", serif;
+    padding: 1em;
 }
 
 table, form {
@@ -20,6 +25,7 @@ table, form {
     background-color: #2b015f; 
     color: #e6e6fa;
     width: 75%;
+    font-size: larger;
 }
 
 th, td {

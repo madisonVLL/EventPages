@@ -18,14 +18,11 @@
         <button id="generate_task_button">Auto-Generate Task(s)</button>
         <!--For multiple tasks, I'm thinking of storing the generated 
         tasks as an array-->
-        <h3>Add More Guests</h3>
-        <label for="add_task">Task</label>
-        <input type="text" id="add_guest_name" />
-        <label for="add_guest_contact">Contact</label>
-        <p>Please enter a valid phone number or email address</p>
-        <input type="text" id="add_guest_contact"/>
-        <label for="add_plus_ones">Number of Plus Ones</label>
-        <input type="number" min="0" placeholder="Plus Ones"/>
+        <h3>Create Tasks</h3>
+        <label for="add_task">Task</label><br>
+        <input type="text" id="add_task" /><br>
+        <label for="add_task_date">Task Due Date</label><br>
+        <input type="datetime-local" id="add_task_date"/>
     </form>
-    <button form="add_guest_form" id="add_guest_submit">Add Guest</button>
+    <button form="add_task_form" id="add_task_submit">Add Guest</button>
 </body>

@@ -2,7 +2,7 @@ body {
     background-color: lavender;
     color: #4c0094;
     font-family: "EB Garamond", serif;
-    padding: 0.1em;
+    margin: 0.5em;
 }
 
 button {

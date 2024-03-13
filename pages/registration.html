@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <!--Link To Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!--Link To CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/pages.css" />
+</head>
+<body>
+    <h2>Please create an account</h2>
+    <form id="registration_form">
+        <label for="first_name">First Name</label>
+        <input id="first_name" type="text" autocomplete="given-name"/>
+        <label for="last_name">Last Name</label>
+        <input id="last_name" type="text" autocomplete="family-name"/>
+        <label for="registration_email">Email</label>
+        <input id="registration_email" type="email" placeholder="user123@mail.com" autocomplete="email"/>
+        <label for="registration_email">Email</label>
+        <input id="registration_email" type="email" placeholder="user123@mail.com" autocomplete="email"/>
+        <label for="registration_password">Password</label>
+        <input id="registration_password" type="password" minlength="12">
+        <label for="re_enter_password">Re-Enter Password</label>
+        <input id="re_enter_password" type="password" minlength="12">
+    </form>
+    <button form="registration_form" type="submit" id="submit_registration">Register</button>
+</body>

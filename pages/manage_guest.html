@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <!--Link To Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!--Link To CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/pages.css" />
+</head>
+<body>
+    <table>
+        <th>Name</th>
+        <th>Best Contact</th>
+        <th># Plus Ones</th>
+    </table>
+    <br>
+    <h3>Add More Guests</h3>
+    <form>
+        <label for="add_guest_name">Name</label>
+        <input type="text" id="add_guest_name" />
+        <label for="add_guest_contact">Conact</label>
+        <p>Please enter a valid phone number or email address</p>
+        <input type="text" id="add_guest_contact"/>
+        <label for="add_plus_ones">Number of Plus Ones</label>
+        <select id="add_guest_count" size="4" multiple>
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+            <option value="5">4</option>
+            <option value="plus_one_other"><input type="number" placeholder="Other" />
+          </select>
+    </form>
+</body>

@@ -5,8 +5,25 @@ body {
 }
 
 button {
-    border-radius: 50%;
-    color: lavender;
+    border-radius: 25%;
+    color: #e6e6fa;
     background-color:  #4c0094;
     border-color: #4c0094;
 }
+
+table {
+    border: 0.1em solid #4c0094;
+    border-radius: 10px;
+    background-color: #e6e6fa; 
+    color: #4c0094;
+  }
+
+  th, td {
+    border-style: none;
+    text-align: center
+  }
+  
+  tr:hover {
+    border-style: none;
+    font-weight: bold;
+  }

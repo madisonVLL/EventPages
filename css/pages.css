@@ -2,19 +2,20 @@ body {
     background-color: lavender;
     color: #4c0094;
     font-family: "EB Garamond", serif;
+    padding: 0.1em;
 }
 
 button {
-    border-radius: 25%;
+    border-radius: 10px;
     color: #e6e6fa;
-    background-color:  #4c0094;
-    border-color: #4c0094;
+    background-color:  #2b015f;
+    border: 0.1em solid #2b015f;
 }
 
 table, form {
     border: 0.1em solid #e6e6fa;
     border-radius: 10px;
-    background-color: #4c0094; 
+    background-color: #2b015f; 
     color: #e6e6fa;
     width: 75%;
 }

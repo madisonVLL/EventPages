@@ -11,19 +11,20 @@ button {
     border-color: #4c0094;
 }
 
-table {
+table, form {
     border: 0.1em solid #4c0094;
     border-radius: 10px;
     background-color: #e6e6fa; 
     color: #4c0094;
-  }
+    width: 75%;
+}
 
-  th, td {
+th, td {
     border-style: none;
     text-align: center
-  }
+}
   
-  tr:hover {
+tr:hover {
     border-style: none;
     font-weight: bold;
-  }
+}

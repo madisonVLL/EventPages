@@ -14,20 +14,15 @@
         <th># Plus Ones</th>
     </table>
     <br>
-    <h3>Add More Guests</h3>
-    <form>
+    <form id="add_guest_form">
+        <h3>Add More Guests</h3>
         <label for="add_guest_name">Name</label>
         <input type="text" id="add_guest_name" />
         <label for="add_guest_contact">Contact</label>
         <p>Please enter a valid phone number or email address</p>
         <input type="text" id="add_guest_contact"/>
         <label for="add_plus_ones">Number of Plus Ones</label>
-        <select id="add_guest_count" size="5">
-            <option value="2">1</option>
-            <option value="3">2</option>
-            <option value="4">3</option>
-            <option value="5">4</option>
-            <option value="plus_one_other"><input type="number" placeholder="Other" />
-          </select>
+        <input type="number" min="0" placeholder="Plus Ones"/>
     </form>
+    <button form="add_guest_form" id="add_guest_submit">Add Guest</button>
 </body>

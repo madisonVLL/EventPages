@@ -12,10 +12,10 @@ button {
 }
 
 table, form {
-    border: 0.1em solid #4c0094;
+    border: 0.1em solid #e6e6fa;
     border-radius: 10px;
-    background-color: #e6e6fa; 
-    color: #4c0094;
+    background-color: #4c0094; 
+    color: #e6e6fa;
     width: 75%;
 }
 

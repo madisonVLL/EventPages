@@ -22,10 +22,6 @@ table, form {
     color: #e6e6fa;
     width: 75%;
     font-size: larger;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:100vh;
 }
 
 th, td {

@@ -2,7 +2,8 @@ body {
     background-color: lavender;
     color: #4c0094;
     font-family: "EB Garamond", serif;
-    margin: 0.5em;
+    margin: 1em;
+    padding: 1em;
 }
 
 button {
@@ -10,6 +11,7 @@ button {
     color: #e6e6fa;
     background-color:  #2b015f;
     border: 0.1em solid #2b015f;
+    font-family: "EB Garamond", serif;
 }
 
 table, form {

@@ -24,6 +24,7 @@ table, form {
     color: #e6e6fa;
     width: 75%;
     font-size: larger;
+    padding: 0.5em;
 }
 
 th, td {

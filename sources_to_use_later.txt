@@ -1,0 +1,4 @@
+Link to phone and email validator
+https://www.npmjs.com/package/validator
+
+Link to user authentication

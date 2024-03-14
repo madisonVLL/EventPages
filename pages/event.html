@@ -8,21 +8,22 @@
     <link rel="stylesheet" type="text/css" href="../css/pages.css" />
 </head>
 <body>
-    <table>
-        <th>Name</th>
-        <th>Best Contact</th>
-        <th># Plus Ones</th>
-    </table>
+    <h2>Event Info</h2>
     <br>
-    <form id="add_guest_form">
-        <h3>Add More Guests</h3>
-        <label for="add_guest_name">Name</label>
-        <input type="text" id="add_guest_name" />
-        <label for="add_guest_contact">Contact</label>
-        <p>Please enter a valid phone number or email address</p>
-        <input type="text" id="add_guest_contact"/>
-        <label for="add_plus_ones">Number of Plus Ones</label>
-        <input type="number" min="0" placeholder="Plus Ones"/>
+    <form id="add_event">
+        <div id="multi_day_form">
+            <p>Event That Spans Multiple Days? Create A</p>
+            <button for="add_multiday_event" id="multiday_event_submit">Multi-Day Event</button>
+        </div>
+        <label for="add_event_name">Event Name (Optional)</label>
+        <input type="text" id="add_event_name" />
+        <label for="add_event_type">Event Type</label>
+        <input type="text" id="add_event_type" />
+        <label for="add_event_date">Event Date</label>
+        <input type="date" id="add_event_date"/>
+        <label for="add_event_start">Event Start Time</label>
+        <input type="time" id="add_event_start"/>
+        <label for="add_event_end">Event End Time</label>
+        <input type="time" id="add_event_end"/>
     </form>
-    <button form="add_guest_form" id="add_guest_submit">Add Guest</button>
 </body>

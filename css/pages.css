@@ -6,7 +6,7 @@ body {
     padding: 1em;
 }
 
-button {
+button, input {
     border-radius: 10px;
     color: #e6e6fa;
     background-color:  #2b015f;

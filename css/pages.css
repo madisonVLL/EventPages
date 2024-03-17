@@ -52,22 +52,26 @@ embed {
     height: 100vh;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4c0094;
+}
+
+li a {
+  display: block;
+  color: #e6e6fa;
+  text-align: center;
+  padding: 1em 1.25em;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
 a {
     text-decoration: none;
-}
-
-.nav_bar {
-    background-color: #2b015f;
-    position: fixed;
-    width: 100%;
-}
-
-.nav_bar li {
-    display: inline-block;
-    text-decoration: none;
-}
-
-.nav_bar a{
-    text-decoration: none;
-    color: #e6e6fa;
 }

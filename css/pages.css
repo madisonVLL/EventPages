@@ -51,7 +51,7 @@ embed {
     height: 100vh;
 }
 
-.nav_bar li{
+.nav_bar {
     display: inline;
     text-decoration: none;
     background-color: #4c0094;

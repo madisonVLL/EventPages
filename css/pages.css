@@ -60,11 +60,13 @@ a {
     background-color: #2b015f;
     position: fixed;
     width: 100%;
-    color: #e6e6fa;
 }
 
-.nav_bar li a{
+.nav_bar li {
     display: inline;
+}
+
+.nav_bar li a {
     text-decoration: none;
     color: #e6e6fa;
 }

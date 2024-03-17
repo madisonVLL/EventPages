@@ -52,9 +52,13 @@ embed {
 }
 
 .nav_bar {
-    display: inline;
+    background-color: #2b015f;
+    position: fixed;
+    width: 100%;
+}
+.nav_bar li{
+    display: inline-block;
     text-decoration: none;
-    background-color: #4c0094;
     color: #e6e6fa;
 }
 

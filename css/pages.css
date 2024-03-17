@@ -3,7 +3,8 @@ body {
     color: #4c0094;
     font-family: "EB Garamond", serif;
     margin: 0;
-    padding: 1em;
+    padding: 0;
+    border: 0;
 }
 
 button {
@@ -59,9 +60,10 @@ a {
     background-color: #2b015f;
     position: fixed;
     width: 100%;
+    color: #e6e6fa;
 }
 
-.nav_bar li{
+.nav_bar li a{
     display: inline;
     text-decoration: none;
     color: #e6e6fa;

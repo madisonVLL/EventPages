@@ -60,6 +60,10 @@ embed {
     display: inline-block;
     text-decoration: none;
     color: #e6e6fa;
+    padding: 1em 2em 1em 2em;
+}
+.nav_bar a {
+    color:#e6e6fa;
 }
 
 .nav_bar a:hover {

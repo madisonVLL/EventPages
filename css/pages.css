@@ -53,4 +53,11 @@ embed {
 
 .nav_bar li{
     display: inline;
+    text-decoration: none;
+    background-color: #4c0094;
+    color: #e6e6fa;
+}
+
+.nav_bar a:hover {
+    text-decoration: underline;
 }

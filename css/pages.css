@@ -63,7 +63,8 @@ a {
 }
 
 .nav_bar li {
-    display: inline;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .nav_bar a{

@@ -2,7 +2,7 @@ body {
     background-color: lavender;
     color: #4c0094;
     font-family: "EB Garamond", serif;
-    margin: 1em;
+    margin: 0;
     padding: 1em;
 }
 
@@ -60,13 +60,9 @@ a {
     position: fixed;
     width: 100%;
 }
+
 .nav_bar li{
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     color: #e6e6fa;
-    padding: 1em 2em 1em 2em;
-}
-
-.nav_bar a:hover {
-    text-decoration: underline;
 }

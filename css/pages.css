@@ -51,6 +51,10 @@ embed {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav_bar {
     background-color: #2b015f;
     position: fixed;
@@ -61,9 +65,6 @@ embed {
     text-decoration: none;
     color: #e6e6fa;
     padding: 1em 2em 1em 2em;
-}
-.nav_bar a {
-    color:#e6e6fa;
 }
 
 .nav_bar a:hover {

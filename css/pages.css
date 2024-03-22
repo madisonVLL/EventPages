@@ -27,6 +27,11 @@ input {
     margin: auto;
 }
 
+input[type="range"] {
+    background-color: white;
+    color: #2b015f;
+}
+
 table, form {
     border: 0.1em solid #e6e6fa;
     border-radius: 10px;

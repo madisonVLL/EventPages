@@ -117,17 +117,40 @@ class TreeNode:
 
     def is_leaf(self) -> bool:
         return len(self.children) == 0
+    
+        
 
 
 def get_paths(t: "TreeNode", weight: int) -> list[list[int]]:
-    paths = []
-    current_path = []
-    if sum(current_path) <= weight and current_path != []:
-        paths.extend(current_path)   
-    if t.val == weight:
-        paths.extend([t.val])
-    else:
-        for child in t.children:
-            current_path += [t.val + get_paths(child)]
-    return paths
+    paths = paths_helper(t)
+    equal_path = []
+    for path in paths:
+        if int(sum(path)) != weight:
+            path.pop()
+        else: 
+            equal_path.append(path)
+    return equal_path
+        
 
+def paths_helper(t: "TreeNode") -> list[list[int]]:
+    '''
+    This is a helper function to the get_paths function, it creates
+    a list of all the root to leaf node and then returns that list
+    
+    inputs: 
+    t: "TreeNode" - instance of TreeNode Class
+    
+    returns:
+    list[list[int]] - list of lists of integers
+    '''
+    if t.is_leaf():
+        return [[t.value]]
+    else:
+        root_list = []
+        for child in t.children:
+            current_path = paths_helper(child)
+            root_list += current_path
+        for i, path in enumerate(root_list):
+            root_list[i] = [t.value] + path   
+        return root_list
+        

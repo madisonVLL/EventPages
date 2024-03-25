@@ -85,6 +85,7 @@ a {
     overflow: hidden;
     background-color: #2b015f;
     position: sticky;
+    font-size: 1.25em;
     top: 0;
 }
   

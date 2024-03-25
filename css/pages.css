@@ -1,5 +1,5 @@
 body {
-    background-color: lavender;
+    background-color: #e6e6fa;
     color: #4c0094;
     font-family: "EB Garamond", serif;
     margin: 0;
@@ -80,3 +80,23 @@ li a:hover {
 a {
     text-decoration: none;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #2b015f;
+    position: sticky;
+    top: 0;
+}
+  
+.navbar a {
+    float: left;
+    color: #e6e6fa;
+    text-align: center;
+    padding: 0.875em 1em;
+}
+  
+.navbar a:hover {
+   color: #2b015f;
+   background-color: #e6e6fa;
+}
+  

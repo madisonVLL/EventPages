@@ -122,14 +122,23 @@ class TreeNode:
 
 
 def get_paths(t: "TreeNode", weight: int) -> list[list[int]]:
+    '''
+    Gets paths of a list and returns a list of the paths 
+    which have the same target weight as the weight provided
+    
+    Inputs: 
+    t: "TreeNode" - instance of treeNode class
+    weight: int - integer of desired weight of paths
+
+    Returns:
+    list[list[int]] - list of paths
+    '''
     paths = paths_helper(t)
     equal_path = []
     for path in paths:
-        if int(sum(path)) != weight:
-            path.pop()
-        else: 
-            equal_path.append(path)
+        equal_path.append(paths_helper2(path, weight))
     return equal_path
+        
         
 
 def paths_helper(t: "TreeNode") -> list[list[int]]:
@@ -153,4 +162,25 @@ def paths_helper(t: "TreeNode") -> list[list[int]]:
         for i, path in enumerate(root_list):
             root_list[i] = [t.value] + path   
         return root_list
+    
+def paths_helper2(lst: list[int], target) -> list[int]:
+    '''
+    This function finds if the sum of a list is equal to 
+    the target length of a path, returns an empty list if
+    not
+    
+    Inputs:
+    lst list[int]: list of integers
+    Returns:
+    list[int]
+    '''
+    if int(sum(lst)) == target:
+        return lst
+    if int(sum(lst)) < target:
+        return []
+    else:
+        lst.pop()
+        return paths_helper2(lst, target)
+
+
         
